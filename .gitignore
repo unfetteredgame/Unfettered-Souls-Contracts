@@ -1,0 +1,19 @@
+.DS_Store
+slitherResult.json
+node_modules
+.env
+
+#Hardhat files
+cache
+artifacts
+
+#Solidity coverage
+coverage
+coverage.json
+
+
+#Typechain
+typechain
+
+.vscode
+
