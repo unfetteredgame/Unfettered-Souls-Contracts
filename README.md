@@ -1,5 +1,5 @@
 # The Unfettered - SOULS Contracts
-The Unfettered is role-playing video game that offers an unparalleled decentralized play2earn gaming experience on the blockchain. The game features a soulslike genre, developed by Trender Software on the Unreal Engine 4, designed to provide players with an immersive and challenging gaming experience. The mission of The Unfettered is to provide true gaming freedom, and the vision is to create a fair and transparent gaming ecosystem. 
+The Unfettered is role-playing video game that offers an unparalleled decentralized play2earn gaming experience on the blockchain. The game features a soulslike genre, developed by Trender Software on the Unreal Engine 5, designed to provide players with an immersive and challenging gaming experience. The mission of The Unfettered is to provide true gaming freedom, and the vision is to create a fair and transparent gaming ecosystem. 
 
 Gaming contracts are under development in a private repo and will be added here after deployment. This repo includes the base contracts of the Unfettered ecosystem. All contracts are deployed on Polygon network.
 
