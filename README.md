@@ -16,7 +16,7 @@ MainVault is the factory contract of SoulsToken contract and it receives all the
 Manages trading start time on DEX and prevents big amount of sells during launch. Deployed to: [0x9B7f679F7b48C6Cc13568996E16356c180205Fe1](https://polygonscan.com/address/0x9B7f679F7b48C6Cc13568996E16356c180205Fe1)
 
 ## [Vault.sol](https://github.com/unfetteredgame/Unfettered-Souls-Contracts/blob/main/contracts/Vaults/Vault.sol)
-Base contract for all vault contracts which stores vesting schedule Releases tokens and allows withdrawal when requested by project admins according to the tokenomy table. 
+Base contract for all vault contracts which stores vesting schedule, releases tokens and allows withdrawal when requested by project admins according to the tokenomy table. 
 
   - Deployed to [0xCA16943A156ca748ECb667D530Cdf6B6b23d8D66](https://polygonscan.com/address/0xCA16943A156ca748ECb667D530Cdf6B6b23d8D66) as Marketing Vault, 
   -  Deployed to [0x1136365a23f80F3f176e40257858B02889266B73](https://polygonscan.com/address/0x1136365a23f80F3f176e40257858B02889266B73) as Advisoer Vault, 
