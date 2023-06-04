@@ -18,10 +18,10 @@ Manages trading start time on DEX and prevents big amount of sells during launch
 ## [Vault.sol](https://github.com/unfetteredgame/Unfettered-Souls-Contracts/blob/main/contracts/Vaults/Vault.sol)
 Base contract for all vault contracts which stores vesting schedule Releases tokens and allows withdrawal when requested by project admins according to the tokenomy table. 
 
-  - Deployed to [0xCA16943A156ca748ECb667D530Cdf6B6b23d8D66](https://polygonscan.com/address/https://polygonscan.com/address/0x6de4e34dcAB7Ac63453581EF9e615BeAC72969EB) as Marketing Vault, 
-  -  Deployed to [0x1136365a23f80F3f176e40257858B02889266B73](https://polygonscan.com/address/https://polygonscan.com/address/0x1136365a23f80F3f176e40257858B02889266B73) as Advisoer Vault, 
- -  Deployed to [0xA24Cf6590C6185e70D6be14a6cc1580457577c3B](https://polygonscan.com/address/https://polygonscan.com/address/0xA24Cf6590C6185e70D6be14a6cc1580457577c3B) as Team Vault, 
- -  Deployed to [0xDaa7C91dAaA3aaA5afBe405e9efa356E8F7B9356](https://polygonscan.com/address/https://polygonscan.com/address/0xDaa7C91dAaA3aaA5afBe405e9efa356E8F7B9356) as Treasury Vault.
+  - Deployed to [0xCA16943A156ca748ECb667D530Cdf6B6b23d8D66](https://polygonscan.com/address/0xCA16943A156ca748ECb667D530Cdf6B6b23d8D66) as Marketing Vault, 
+  -  Deployed to [0x1136365a23f80F3f176e40257858B02889266B73](https://polygonscan.com/address/0x1136365a23f80F3f176e40257858B02889266B73) as Advisoer Vault, 
+ -  Deployed to [0xA24Cf6590C6185e70D6be14a6cc1580457577c3B](https://polygonscan.com/address/0xA24Cf6590C6185e70D6be14a6cc1580457577c3B) as Team Vault, 
+ -  Deployed to [0xDaa7C91dAaA3aaA5afBe405e9efa356E8F7B9356](https://polygonscan.com/address/0xDaa7C91dAaA3aaA5afBe405e9efa356E8F7B9356) as Treasury Vault.
 
 ## [LiquidityVault.sol](https://github.com/unfetteredgame/Unfettered-Souls-Contracts/blob/main/contracts/Vaults/LiquidityVault.sol)
 Manages liqiudity tokens and allows managers to add liquidity on DEX. Firstly creates liquidity pool with certain amount of liquidity to set DEX initial price during initialization. After that managers can add extra liquidity through this contract. All created LP tokens are transferred to Main Vault and locked for 365 days. Deployed to [0x6267bd8752a981c8AF9DF5B9C97da95DA78A21e3](https://polygonscan.com/address/https://polygonscan.com/address/0x6267bd8752a981c8AF9DF5B9C97da95DA78A21e3).
