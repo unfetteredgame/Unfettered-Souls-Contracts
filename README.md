@@ -24,19 +24,19 @@ Base contract for all vault contracts which stores vesting schedule Releases tok
  -  Deployed to [0xDaa7C91dAaA3aaA5afBe405e9efa356E8F7B9356](https://polygonscan.com/address/0xDaa7C91dAaA3aaA5afBe405e9efa356E8F7B9356) as Treasury Vault.
 
 ## [LiquidityVault.sol](https://github.com/unfetteredgame/Unfettered-Souls-Contracts/blob/main/contracts/Vaults/LiquidityVault.sol)
-Manages liqiudity tokens and allows managers to add liquidity on DEX. Firstly creates liquidity pool with certain amount of liquidity to set DEX initial price during initialization. After that managers can add extra liquidity through this contract. All created LP tokens are transferred to Main Vault and locked for 365 days. Deployed to [0x6267bd8752a981c8AF9DF5B9C97da95DA78A21e3](https://polygonscan.com/address/https://polygonscan.com/address/0x6267bd8752a981c8AF9DF5B9C97da95DA78A21e3).
+Manages liqiudity tokens and allows managers to add liquidity on DEX. Firstly creates liquidity pool with certain amount of liquidity to set DEX initial price during initialization. After that managers can add extra liquidity through this contract. All created LP tokens are transferred to Main Vault and locked for 365 days. Deployed to [0x6267bd8752a981c8AF9DF5B9C97da95DA78A21e3](https://polygonscan.com/address/0x6267bd8752a981c8AF9DF5B9C97da95DA78A21e3).
 
 ## [CrowdfundingVault.sol](https://github.com/unfetteredgame/Unfettered-Souls-Contracts/blob/main/contracts/Vaults/CrowdfundingVault.sol)
-Stores crowdfunding tokens until managers creates claims for crowdfunding investors, then all tokens will be transferred seperate crowdfunding contracts (Seed sale, Strategic sale, Private sale, Public sale and Pass Holder sale). It is deployed to [0xd6e2f1ba77B13Bea13fc93bBeD365314fF75A8b7](https://polygonscan.com/address/https://polygonscan.com/address/0xd6e2f1ba77B13Bea13fc93bBeD365314fF75A8b7).
+Stores crowdfunding tokens until managers creates claims for crowdfunding investors, then all tokens will be transferred seperate crowdfunding contracts (Seed sale, Strategic sale, Private sale, Public sale and Pass Holder sale). It is deployed to [0xd6e2f1ba77B13Bea13fc93bBeD365314fF75A8b7](https://polygonscan.com/address/0xd6e2f1ba77B13Bea13fc93bBeD365314fF75A8b7).
 
 ## [AirdropVault.sol](https://github.com/unfetteredgame/Unfettered-Souls-Contracts/blob/main/contracts/Vaults/AirdropVault.sol)
-Holds airdrop tokens vesting data and allows managers to transfer tokens to Airdrop contract to create new airdrops and deployed to [0x9832eB499B6332576323F10b901A632d9D25121b](https://polygonscan.com/address/https://polygonscan.com/address/0x9832eB499B6332576323F10b901A632d9D25121b).
+Holds airdrop tokens vesting data and allows managers to transfer tokens to Airdrop contract to create new airdrops and deployed to [0x9832eB499B6332576323F10b901A632d9D25121b](https://polygonscan.com/address/0x9832eB499B6332576323F10b901A632d9D25121b).
 
 ## [StakingVault.sol](https://github.com/unfetteredgame/Unfettered-Souls-Contracts/blob/main/contracts/Vaults/StakingVault.sol)
-Holds staking/farming reward tokens vesting data and allows managers to transfer tokens to Staking contract. Deployed to [0x0f92ed442801e949efFDF9EecE806A43De20F53A](https://polygonscan.com/address/https://polygonscan.com/address/0x0f92ed442801e949efFDF9EecE806A43De20F53A)
+Holds staking/farming reward tokens vesting data and allows managers to transfer tokens to Staking contract. Deployed to [0x0f92ed442801e949efFDF9EecE806A43De20F53A](https://polygonscan.com/address/0x0f92ed442801e949efFDF9EecE806A43De20F53A)
 
 ## [PlayToEarnVault.sol](https://github.com/unfetteredgame/Unfettered-Souls-Contracts/blob/main/contracts/Vaults/PlayToEarnVault.sol)
-Holds Play to Earn tokens vesting info and transfers required amount of tokens to WithdrawClaim contract (will be deployed and added here after game launch) during creation of claim data by play to earn service according to the players requests of token withdrawal from game. Deployed to [0xe19Adb977cf82224Da8109aC2656a547F52e6576](https://polygonscan.com/address/https://polygonscan.com/address/0xe19Adb977cf82224Da8109aC2656a547F52e6576)
+Holds Play to Earn tokens vesting info and transfers required amount of tokens to WithdrawClaim contract (will be deployed and added here after game launch) during creation of claim data by play to earn service according to the players requests of token withdrawal from game. Deployed to [0xe19Adb977cf82224Da8109aC2656a547F52e6576](https://polygonscan.com/address/0xe19Adb977cf82224Da8109aC2656a547F52e6576)
 
 ## [Crowdfunding.sol](https://github.com/unfetteredgame/Unfettered-Souls-Contracts/blob/main/contracts/Claimables/Crowdfunding.sol)
 Base contract for all crowdfundings. All vesting data added to contracts after deployment and before TGE. Investors can claim their tokens from [crowdfunding claim page](https://crowdfunding.theunfettered.io). Deployment addresses:
